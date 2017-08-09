@@ -1,0 +1,184 @@
+/* Margherita v.0.4 */
+/* by Instilla Srl */
+
+body {
+    padding: 10px;
+    background: rgba(215, 225, 236, 0.4)
+}
+
+body * {
+    font-size:16pt;
+    font-family: Lato, sans-serif;
+}
+
+form {
+    border: 1px solid #ddd;
+    background: #ccc;
+    padding: 1em;
+}
+section {
+    max-width: 960px;
+    margin: auto;
+    padding: 50px;
+    background: #413949;
+    box-shadow:1px 6px 9px #666;
+    color:#fff;
+}
+
+#header {
+    background: white;
+    padding: 30px 50px;
+    height: 114px;
+}
+
+#forms {
+    background: #fff;
+}
+
+form {
+    background: #f2f2f2;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+input, select {
+    width: 90%;
+    min-height: 30px;
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 1rem;
+    background: #fff;
+    border: inset 1px #E0E0E0;
+}
+
+input[type=submit] {
+    background: #535058;
+    width: 100%;
+    color: #fff;
+    min-height: 65px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #222;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    background: #333;
+
+}
+
+input[type=file] {
+    width: 90%;
+    min-height: 30px;
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 1rem;
+    background: #fff;
+    border: inset 1px #E0E0E0;
+}
+
+.inputPlaceholder {
+    height: 107 px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #413949;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+h3 {
+    color: #413949;
+}
+
+li {
+    font-size: 1rem;    
+}
+
+a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+p, i {
+    font-size: 1rem;
+}
+
+form h3 {
+    color: #413949;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-bottom: 50px;
+}
+
+form p {
+    color: #413949;
+}
+
+#logo img{
+    max-width: 140px;
+    display: inline;
+    float: right;
+}
+
+#logo h1 {
+    color: #413949;
+    display: inline;
+}
+
+#php-comando{
+    padding: 2% 3%;
+    background: #000;
+    margin-top: 40px;
+    border-left: 3px solid #fff;
+}
+
+@media (max-width: 1000px) and (min-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    #header {
+        height: 182px;
+    }
+
+    #logo img {
+    float: initial;
+    margin: 0;
+    margin-bottom: 24px;
+    }
+
+    #logo h3 {
+        display: initial;
+    }
+
+    #forms {
+        padding: 30px;
+    }
+
+    #php-comando {
+        padding: 2% 14%;
+    }
+
+}
